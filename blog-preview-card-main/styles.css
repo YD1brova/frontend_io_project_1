@@ -1,0 +1,134 @@
+:root{
+    --background-white: white;
+    --gray-950: #111;
+    --gray-500: #6b6b6b;
+    --yellow: #f4d04e;
+    } 
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-color:var(--yellow);
+}
+#learning{
+        background-color: var(--yellow);
+        width:82px;
+        height: 29px;
+        text-align: center;
+        padding: 4px 12px;
+        margin-top: 24px;
+        border-radius:4px;
+        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-box{
+    box-sizing:border-box;
+    width: 384px;   
+    background-color: var(--background-white);
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.75);
+    margin:auto;
+    margin-top: 100px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.text-preset-3-bold{
+     font-size: 14px;
+        line-height: 1.5;
+        font-weight: 800;
+        color: var(--gray-500);
+        font-family: 'Figtree', sans-serif;
+}
+
+.text-preset-1{
+    
+        font-size:24px;
+        line-height: 1.5;
+        font-weight: 800;
+        color: var(--gray-950);
+        font-family: 'Figtree', sans-serif;
+}
+
+.text-preset-2{
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: var(--gray-950);
+        font-family: 'Figtree', sans-serif;
+}
+
+.text-preset-3{
+         font-size: 14px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: var(--gray-950);
+        font-family: 'Figtree', sans-serif;
+}
+
+.greg-hooper{
+     display: flex;
+  align-items: center; 
+  gap: 12px; 
+  margin-top: 24px;
+}
+
+.greg-hooper img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--gray-500);
+  margin-bottom: 24px;
+}
+
+.main-text{
+    margin:12px 24px;
+}
+
+.foundations, .backbone, .published{
+    margin: 12px 24px;
+}
+
+.foundations:hover{
+    color: var(--yellow);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .white-box {
+    width: 90%;
+    margin-top: 48px;
+    padding: 16px;
+  }
+
+  .text-preset-1 {
+    font-size: 20px;
+  }
+
+  .text-preset-2 {
+    font-size: 14px;
+  }
+
+  .greg-hooper {
+    gap: 8px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
+  }
+}
